@@ -7,7 +7,7 @@ use core\EquationInterface as EquationInterfaceAlias;
 class ClassSquare extends ClassLine implements EquationInterfaceAlias
 {
 
-    public function solve($a, $b, $c)
+    public function solve($a, $b, $c):array
     {
 
         if ($a == 0) {

@@ -6,7 +6,7 @@ namespace Nikita;
 class ClassLine
 {
 
-    protected function line($a, $b)
+    protected function line($a, $b):array
     {
         if ($a == 0 ) {
             Throw new NikitaExeption("Определено, что такое уравнение не существует");
